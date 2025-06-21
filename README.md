@@ -28,13 +28,13 @@ A real-time chat application built using **React**, **Node.js**, and **Socket.io
 
 ## 📁 Project Structure
 MY_CHAT_APP/
-├── frontend/ # React frontend using Tailwind + DaisyUI
-│ ├── src/
-│ └── public/
-├── backend/ # Node.js backend with Socket.io
-│ └── index.js / server.js
-├── README.md
-└── package.json
+─ frontend/ # React frontend using Tailwind + DaisyUI
+    ─ src/
+    ─ public/
+─ backend/ # Node.js backend with Socket.io
+    ─ index.js / server.js
+─ README.md
+─ package.json
 
 
 ---
@@ -47,25 +47,25 @@ git clone https://github.com/ShyamSalekar/Chat_app.git
 cd My_Chat_app
 
 ### 2. Install dependencies
-For backend: 
+# For backend: 
     cd backend
     npm install
 
-For frontend:
+# For frontend:
     cd ../frontend
     npm install
 
 ### 3. Set environment variables
-Create a .env file inside the backend directory with the following content:
+# Create a .env file inside the backend directory with the following content:
 MONGO_URI=your-mongodb-connection-string
 PORT=5000
 
 
 ### 4. Start the application
-In frontend:
+# In frontend:
     run command "npm run dev"
 
-IN backend:
+# In backend:
     run command "npm run dev"
 
 ## 👤 Author
